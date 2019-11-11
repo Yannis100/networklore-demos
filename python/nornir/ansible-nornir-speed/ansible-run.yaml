@@ -7,3 +7,4 @@
       template:
         src: "ansible-base.j2"
         dest: "output/ansible/{{ inventory_hostname }}.cfg"
+      delegate_to: localhost
